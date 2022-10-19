@@ -244,6 +244,9 @@ img {
   line-height: 1.88;
   cursor: pointer;
   letter-spacing: 0.06em;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: var(--timing-function);
 }
 .button:hover,
 .button:focus {
