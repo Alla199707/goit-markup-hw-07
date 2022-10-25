@@ -1,0 +1,27 @@
+.aut-nav {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	gap: 30px;
+}
+
+.aut-nav__link {
+	display: flex;
+	align-items: center;
+	padding: 32px 0;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--owner-text-color);
+	transition: color 250ms var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.aut-nav__icon {
+	margin-right: 10px;
+	fill: currentColor;
+}
