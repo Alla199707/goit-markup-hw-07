@@ -4,15 +4,15 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  &:hover,
+  &:focus {
+  color: var(--accent-color);
+  }
 }
 .page-header-logo {
   display: inline-block;
   margin-right: 93px;
 }
-.logo-header {
+.logo__header {
   color: var(--logo-text-color);
-}
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
 }
