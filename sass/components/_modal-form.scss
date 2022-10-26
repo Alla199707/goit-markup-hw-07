@@ -46,10 +46,10 @@
 	justify-content: center;
 	align-items: center;
 	transition: fill 250ms var(--timing-function);
-}
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-	fill: var(--accent-color);
+	&:hover,
+	&:focus {
+		fill: var(--accent-color);
+	}
 }
 .backdrop.is-hidden {
 	/* visibility: hidden; */
@@ -98,10 +98,10 @@
 	color: var(--owner-text-color);
 	outline: transparent;
 	transition: border-color 250ms var(--timing-function);
-}
-.modal-input:hover,
-.modal-input:focus {
-	border-color: var(--accent-color);
+	&:hover,
+	&:focus {
+		border-color: var(--accent-color);
+	}
 }
 .input-icon {
 	position: absolute;
@@ -126,11 +126,10 @@
 	resize: none;
 	outline: var(--accent-color);
 	transition: border-color 250ms var(--timing-function);
-}
-
-.modal-comment:hover,
-.modal-comment:focus {
-	border-color: var(--accent-color);
+	&:hover,
+	&:focus {
+		border-color: var(--accent-color);
+	}
 }
 
 .modal-agree {

@@ -1,12 +1,49 @@
-.page__footer .container {
+.page-footer {
+	padding: 60px 0;
+	background-color: var(--background-footer-color);
+}
+
+.footer__box {
 	display: flex;
 	align-items: baseline;
+}
+.logo__footer {
+	color: var(--secondory-white-color);
+}
+.footer__adress {
+	margin-top: 20px;
+	font-style: normal;
+}
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+}
+
+.footer__link {
+	color: var(--footer-text-color);
+	font-weight: 400;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+
+	display: inline-block;
+	transition: color 250ms var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.footer__link--map {
+	color: var(--secondory-white-color);
+	font-style: normal;
+	line-height: 1.71;
 }
 .footer-social {
 	margin-left: 70px;
 }
-.footer-social-title,
-.footer-signup-title {
+.footer-soc__title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -16,12 +53,12 @@
 	color: var(--secondory-white-color);
 	margin-bottom: 20px;
 }
-.footer-soc-list {
+.footer-soc__list {
 	display: flex;
 	gap: 10px;
 	justify-content: center;
 }
-.footer-soc-link {
+.footer-soc__link {
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
@@ -32,50 +69,11 @@
 	fill: var(--secondory-white-color);
 
 	transition: background-color 250ms var(--timing-function);
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+	}
 }
-.footer-soc-link {
+.footer-soc__link {
 	color: currentColor;
-}
-
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-	background-color: var(--accent-color);
-}
-
-.page-footer {
-	padding: 60px 0;
-	background-color: var(--background-footer-color);
-}
-.adress-item:nth-child(-n + 2) {
-	margin-bottom: 9px;
-}
-.map-link {
-	color: var(--secondory-white-color);
-	font-style: normal;
-	line-height: 1.71;
-
-	transition: color 250ms var(--timing-function);
-}
-.map-link:hover,
-.map-link:focus {
-	color: var(--accent-color);
-}
-.links-contacts {
-	color: var(--owner-text-color);
-	font-weight: 500;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-}
-.logo-footer {
-	color: var(--secondory-white-color);
-}
-.address {
-	margin-top: 20px;
-}
-.address-footer {
-	color: var(footer-text-color);
-	line-height: 1.7;
-	font-style: normal;
-
-	transition: color 250ms var(--timing-function);
 }

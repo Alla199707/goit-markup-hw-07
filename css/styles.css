@@ -227,7 +227,7 @@ img {
 	min-width: 216px;
 	text-align: center;
 
-<<<<<<< HEAD
+	/* <<<<<<< HEAD
 	background-color: var(--accent-color);
 	color: var(--secondory-white-color);
 	font-family: inherit;
@@ -251,20 +251,20 @@ img {
   transition-duration: 500ms;
   transition-timing-function: var(--timing-function);
 >>>>>>> 2f0446c22778fde37a0f20d9e812202922c1082d
-}
-.button:hover,
+} */
+	/* .button:hover,
 .button:focus {
 	background-color: #188ce8;
-}
-/* --------------------Секция преимуществ---------------- */
-.our-advantages {
+} */
+	/* --------------------Секция преимуществ---------------- */
+	/* .our-advantages {
 	display: flex;
 	flex-wrap: wrap;
 	/* justify-content: space-between; */
 	gap: 30px;
 	/* align-items: center; */
 }
-.advantages-item {
+*/ .advantages-item {
 	max-width: 270px;
 }
 
