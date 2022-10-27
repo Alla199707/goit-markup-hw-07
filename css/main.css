@@ -724,11 +724,11 @@ img {
   padding: 40px;
 }
 
-.modal__close-icon {
+.modal-close__icon {
   right: 0;
 }
 
-.modal__close-btn {
+.modal-close__btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -744,7 +744,7 @@ img {
   align-items: center;
   transition: fill 250ms var(--timing-function);
 }
-.modal__close-btn:hover, .modal__close-btn:focus {
+.modal-close__btn:hover, .modal-close__btn:focus {
   fill: var(--accent-color);
 }
 
@@ -777,8 +777,7 @@ img {
   display: flex;
   flex-direction: column;
 }
-
-.modal__field.texarea {
+.modal__field .texarea {
   margin-bottom: 0;
 }
 
@@ -813,9 +812,7 @@ img {
   fill: var(--logo-text-color);
   transition: fill 250ms var(--timing-function);
 }
-
-.modal__input:hover + .input__icon,
-.modal__input:focus + .input__icon {
+.modal__input:hover + .input__icon, .modal__input:focus + .input__icon {
   fill: var(--accent-bg-color);
 }
 
@@ -855,7 +852,7 @@ img {
   fill: var(--accent-color);
 }
 
-.modal__checkbox-label {
+.modal-checkbox__label {
   margin-left: 8px;
   cursor: pointer;
   color: var(--owner-text-color);
