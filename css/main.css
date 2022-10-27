@@ -90,12 +90,12 @@ img {
   line-height: 1.2;
 }
 
-.page-header-logo {
+.main-nav__logo {
   display: inline-block;
   margin-right: 93px;
 }
 
-.logo-header {
+.logo__header {
   color: var(--logo-text-color);
 }
 
