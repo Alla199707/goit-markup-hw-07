@@ -1,6 +1,6 @@
 @mixin generateIcons($iconList) {
 	@each $iconName in $iconList {
-		.icon-#{$iconName} {
+		.icon-#{$iconName}::before {
 			background-image: url("../images/#{$iconName}.svg");
 		}
 	}
